@@ -1,0 +1,17 @@
+Git Basics:-
+
+-------------------------------------------------------------------------------------------------
+"Add New Repo To Git"
+
+1) git init
+2) git add .
+3) git commit -m "My First Commit"
+4) git remote add origin <repo-url>
+5) git push origin master -f
+
+-------------------------------------------------------------------------------------------------
+"Update A Old Repo To Git"
+
+1) git add .
+2) git commit -m "My Second Commit"
+3) git push origin master -f

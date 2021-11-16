@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        UI-FORM
+    </title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Praveen Sanpada">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="pnc.css">
+</head>
+
+<body>
+
+    <div class="main-div">
+
+        <h2 class="main-heading">Advertising Estimate</h2>
+
+        <form action="/#" method="POST" class="main-form">
+
+            <div class="text-div">
+                <label for="name" class="text-class">Name / Company name <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <input type="text" id="name" name="name" class="txt-inp" required>
+            </div>
+
+            <div class="text-div">
+                <label for="email" class="text-class">Email <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <input type="email" id="email" name="email" class="txt-inp" required>
+            </div>
+
+            <div class="text-div">
+                <label for="sdate" class="text-class">Ad Start Date <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <input type="text" id="sdate" name="sdate" class="txt-inp-d" required>
+            </div>
+
+            <div class="text-div">
+                <label for="edate" class="text-class">Ad End Date <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <input type="text" id="edate" name="edate" class="txt-inp-d" required>
+            </div>
+
+            <div class="text-div">
+                <label for="radios" class="text-class">Advertising Size (pixels) <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <div class="radios">
+                    <input type="radio" id="Option1" name="bb-1" value="Option1">
+                    <label for="Option1">Option1</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" id="Option2" name="bb-1" value="Option2">
+                    <label for="Option2">Option2</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" id="Option3" name="bb-1" value="Option3">
+                    <label for="Option3">Option3</label>
+                </div>
+            </div>
+
+            <div class="text-div">
+                <label for="fff" class="text-class">Which site would you like to advertising on? <span
+                        class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <div class="checks">
+                    <input type="checkbox" id="chk1" name="chk1" value="Option1">
+                    <label for="chk1"> Option1</label>
+                </div>
+                <div class="checks">
+                    <input type="checkbox" id="chk2" name="chk2" value="Option2">
+                    <label for="chk2"> Option2</label>
+                </div>
+                <div class="checks">
+                    <input type="checkbox" id="chk3" name="chk3" value="Option3">
+                    <label for="chk3"> Option3</label>
+                </div>
+            </div>
+
+            <div class="text-div">
+                <label for="web" class="text-class">website to be advertised <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <input type="text" id="web" name="web" class="txt-inp" required>
+            </div>
+
+            <div class="text-div">
+                <label for="ctm" class="text-class">Comments <span class="re-red">*</span></label>
+            </div>
+            <div class="text-inp">
+                <textarea rows="5" class="txt-inp" id="ctm" required></textarea>
+            </div>
+
+            <div class="sub-btn">
+                <input type="submit" value="Submit" class="subbtn">
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

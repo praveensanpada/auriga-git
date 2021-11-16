@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+.main-div{
+    max-width: 80%;
+    margin: 0% auto;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.left-1{
+    width: 40%;
+    padding: 2%;
+    float: left;
+}
+
+.right-1{
+    width: 30%;
+    padding: 2%;
+    float: right;
+}
+
+.first-div{
+    margin-bottom: 3%;
+}
+
+.mid-big-1{
+    width: 20%;
+    margin: 0% auto;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+.mid-small-1{
+    width: 10%;
+    margin: 0% auto;
+    padding: 1%;
+}
+
+.second-div{
+    margin-bottom: 2%;
+}
+
+.third-div{
+    width: 100%;
+    padding: 2%;
+    margin: 0% auto;
+}
+
+.third-1-1{
+    width: 25%;
+    padding: 1%;
+    float: left;
+    margin-top: 1%;
+}
+
+.third-1-2{
+    width: 30%;
+    margin-left: 2%;
+    padding: 2%;
+    float: left;
+}
+
+.third-1-3{
+    width: 35%;
+    margin-left: 2%;
+    padding: 1%;
+    float: left;
+    margin-top: 1%;
+}
+
+.third-1{
+    margin-bottom: 2%;
+}
+
+.third-2-1{
+    width: 25%;
+    padding: 1%;
+    float: left;
+    margin-top: 1%;
+}
+
+.third-2-2{
+    width: 67%;
+    padding: 4%;
+    margin-right: 6%;
+    float: right;
+}
+
+.third-2{
+    margin-bottom: 2%;
+}
+
+.third-3-1{
+    width: 26%;
+    margin-left: 27%;
+    padding: 1%;
+}
+
+.third-3{
+    margin-bottom: 2%;
+}
+
+.third-4-1{
+    width: 26%;
+    margin-left: 27%;
+    padding: 4%;
+    float: left;
+}
+
+.third-4-2{
+    width: 26%;
+    margin-top: 2%;
+    margin-left: 55%;
+    padding: 2%;
+}
+
+.third-div{
+    margin-bottom: 2%;
+}
+
+.fourth-4-1{
+    width: 23%;
+    padding: 2%;
+    float: left;
+    border: 1px solid black;
+}
+
+.fourth-4-2{
+    width: 23%;
+    margin-left: 2%;
+    padding: 2%;
+    float: left;
+    border: 1px solid black;
+}
+
+.fourth-4-3{
+    width: 23%;
+    margin-left: 2%;
+    padding: 2%;
+    float: left;
+    border: 1px solid black;
+}
+
+.fourth-4-4{
+    width: 18%;
+    padding: 1%;
+    margin-top: 1%;
+    float: right;
+}
+
+.main-div-1{
+    border-top: 1px solid black;
+    max-width: 84%;
+    margin: 0% auto;
+}
+
+.fifth-1{
+    width: 28%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 4%;
+    float: left;
+}
+
+.fifth-2{
+    width: 28%;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding: 4%;
+    float: right;
+}
+
+.fifth-div{
+    margin-bottom: 1%;
+}
+
+.sixth-1{
+    width: 14%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.sixth-div{
+    margin-bottom:1%;
+}
+
+.seven-1{
+    width: 76%;
+    margin-left: 2%;
+    padding: 4%;
+    float: left;
+}
+
+.seven-2{
+    width: 18%;
+    margin-right: 2%;
+    padding: 4%;
+    float: right;
+}
+
+.seventh-div{
+    margin-bottom: 1%;
+}
+
+.eigth-1{
+    width: 25%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.eight-div{
+    margin-bottom: 1%;
+}
+
+.nine-1{
+    width: 96%;
+    margin-left: 2%;
+    padding: 4%;
+}
+
+.nine-div{
+    margin-bottom: 1%;
+}
+
+.ten-1{
+    width: 14%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.ten-div{
+    margin-bottom: 1%;
+}
+
+.eleven-1{
+    width: 80%;
+    margin-left: 2%;
+    padding: 4%;
+}
+
+.eleven-div{
+    margin-bottom: 1%;
+}
+
+.twelve-1{
+    width: 14%;
+    padding: 1%;
+    margin-right: 2%;
+    float: right;
+}
+
+.twelve-div{
+    margin-bottom: 1%;
+}
+
+.thir-1{
+    width: 80%;
+    margin-right: 2%;
+    padding: 4%;
+    float: right;
+}
+
+.thir-div{
+    margin-bottom: 1%;
+}
+
+.fourt-1{
+    width: 80%;
+    margin-left: 2%;
+    padding: 4%;
+}
+
+.fourt-div{
+    margin-bottom: 1%;
+}
+
+.fift-1{
+    width: 14%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.main-div-1{
+    margin-bottom: 1%;
+}
+
+.fift-div{
+    margin-bottom: 1%;
+}
+
+.sixt-1{
+    width: 28%;
+    padding: 1%;
+    margin-left: 8%;
+    float: left;
+}
+
+.sixt-2{
+    width: 38%;
+    padding: 1%;
+    margin-right: 8%;
+    float: right;
+}

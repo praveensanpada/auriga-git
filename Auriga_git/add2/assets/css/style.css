@@ -1,0 +1,831 @@
+body {
+    margin: 0px;
+}
+
+p {
+    margin: 0px !important;
+}
+
+.col-sm-6 {
+    padding: 0px !important;
+}
+
+.header-margin-right {
+    margin-right: 40px !important;
+}
+
+@font-face {
+    font-family: 'mulishbold';
+    src: url("../font/Mulish-Bold.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'mulishlight';
+    src: url("../font/Mulish-Light.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'mulishregular';
+    src: url("../font/Mulish-Regular.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'mulishsemibold';
+    src: url("../font/Mulish-SemiBold.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'mulishextrabold';
+    src: url("../font/Mulish-ExtraBold.ttf") format("truetype")
+}
+
+.wrapper {
+    max-width: 1440px;
+    padding-top: 42px;
+}
+
+.header {
+    width: 100%;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background: #1EA59A;
+    text-align: center;
+    font-weight: 800;
+    font-size: 10px;
+    /* padding: 9px 8px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-font {
+    font-family: 'mulishregular';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #000000 !important;
+}
+
+.header-max-width {
+    max-width: 1039px;
+    margin-bottom: 55.5px;
+}
+
+.img-box-text {
+    max-width: 470px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 1;
+}
+
+.drop-box::before {
+    content: '';
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -15%;
+    left: -12%;
+    background-image: url('../images/Dot\ Ornament.png');
+    z-index: -1;
+}
+
+.img-text {
+    margin-bottom: 60px;
+}
+
+.temukan {
+    font-family: 'mulishbold';
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: -1px;
+    color: #121212;
+}
+
+.drop-box {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(64, 72, 82, 0.1);
+    border-radius: 10px;
+    padding: 28px;
+    z-index: -1;
+    max-width: 491px;
+}
+
+/* .form-class {} */
+
+/* .form-text-div {
+    margin-bottom: 8px;
+} */
+
+.temukan-styling {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+    font-family: 'mulishregular';
+    color: #7D8186;
+}
+
+.form-control {
+    border: none !important;
+    padding: 0px !important;
+    max-width: 147px;
+    font-weight: 600;
+    font-size: 30px !important;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    font-family: 'mulishsemibold';
+    color: #000000 !important;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cari-button {
+    background: #FE753E;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'mulishregular';
+    letter-spacing: 0.323077px;
+    color: #FFFFFF;
+    padding: 25px 44px;
+}
+
+.two-image {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.first-image {
+    max-width: 830px;
+    margin-right: 3.5%;
+}
+
+.women-img {
+    max-width: 100%;
+}
+
+.second-image {
+    max-width: 170px;
+}
+
+.table-img {
+    max-width: 100%;
+}
+
+.pos-text1 {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #1EA59A;
+    font-family: 'mulishbold';
+    display: block;
+}
+
+.pos-text2 {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: 'mulishregular';
+    color: #9395A0;
+}
+
+.pos-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-right: 21px;
+    border-top-right-radius: 10px;
+}
+
+.pilih {
+    max-width: 330px;
+}
+
+.mb-150 {
+    margin-bottom: 150px;
+}
+
+.pilih-kami {
+    max-width: 1039px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60.6px;
+}
+
+.pilih-text {
+    font-family: 'mulishbold';
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #121212;
+}
+
+.pilih-text {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.kami {
+    max-width: 520px;
+}
+
+.kami-text {
+    font-family: 'mulishregular';
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #404852;
+}
+
+.box1 {
+    max-width: 320px;
+    position: relative;
+}
+
+.img1 {
+    max-width: 100%;
+}
+
+.kenapa-mudah {
+    margin-bottom: 150px;
+}
+
+.lihat-text {
+    font-family: 'mulishbold';
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #1EA59A;
+}
+
+.kenja-dots::before {
+    content: '';
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    background-image: url('../images/Dot\ Ornament.png');
+}
+
+.kenja-all-text {
+    width: 100%;
+    padding-left: 31.5%;
+    padding-top: 28.5%;
+    padding-bottom: 24.5%;
+}
+
+.kenapa-telah {
+    max-width: 320px;
+    margin-bottom: 64px;
+}
+
+.kenapa-text {
+    font-family: 'mulishbold';
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #121212;
+}
+
+.tenah-text {
+    font-family: 'mulishregular';
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #404852;
+}
+
+.plus-600-text {
+    font-family: 'mulishregular';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0.888889px;
+    color: #1EA59A;
+}
+
+.kerja-text {
+    font-family: 'mulishregular';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.346154px;
+    color: #404852;
+}
+
+.margin-600 {
+    margin-bottom: 64px;
+}
+
+.col-bgcolor {
+    background: #F6FAFA;
+}
+
+.paper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+/* .icon-Group {
+    width: 20px;
+    height: 20px;
+} */
+
+.icon-Group-56 .icon-Group-57, .icon-Group-58{
+    height: 50px;
+    width: 50px;
+}
+
+.mudah-proses {
+    max-width: 320px;
+}
+
+.mudah {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.proses {
+    width: 100%;
+}
+
+.mudah-text {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.352941px;
+    color: #121212;
+    font-family: 'mulishbold';
+}
+
+.proses-text {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.346154px;
+    color: #404852;
+    font-family: 'mulishregular';
+}
+
+.flex-div {
+    display: flex;
+}
+
+.flex-div-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 110px 90px !important;
+}
+
+.paper-and-text {
+    max-width: 400px;
+    display: flex;
+}
+
+.ruang {
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.ruang-text {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'mulishbold';
+    color: #121212;
+}
+
+.ruang-pics {
+    max-width: 1078px;
+}
+
+.pic1 {
+    max-width: 100%;
+    border-radius: 10px !important;
+    margin-bottom: 15px;
+}
+
+.summer {
+    font-family: 'mulishbold';
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color: #1EA59A;
+    display: block;
+}
+
+.lorem {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #404852;
+    display: block;
+}
+
+.rate {
+    font-family: 'mulishbold';
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #121212;
+}
+
+.rate::after {
+    content: "/ hari";
+    font-family: 'mulishregular';
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.346154px;
+    color: #121212;
+}
+
+.card-padding {
+    padding: 20px !important;
+}
+
+.card {
+    border: none !important;
+    margin-bottom: 80px;
+}
+
+.ft-background {
+    background: #F6F6FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-background::before {
+    content: '';
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 28%;
+    left: 21%;
+    background-image: url('../images/Dot\ Ornament.png');
+}
+
+.circle-text {
+    max-width: 321px;
+    padding-top: 21%;
+    padding-bottom: 40%;
+}
+
+.blue-circle {
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background: #5959B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icon-Vector3 {
+    width: 24px;
+    height: 15px;
+}
+
+.kata {
+    max-width: 321px;
+}
+
+.kata-text {
+    font-family: 'mulishbold';
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    color: #121212;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.help-text {
+    font-family: 'mulishregular';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #121212;
+}
+
+.magna {
+    max-width: 400px;
+    margin-bottom: 33px;
+}
+
+.magna-text {
+    font-family: 'mulishregular';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.346154px;
+    color: #404852;
+}
+
+.footer-right-content {
+    max-width: 400px;
+}
+
+.multiple-img {
+    max-width: 400px;
+    text-align: center;
+    border-top: 1px #dedede solid;
+    position: relative;
+    padding: 40px 0px;
+}
+
+.multiple-img::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 8px solid #dedede;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 48%;
+}
+
+.multiple-img::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 7px solid #fff;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    top: -1px;
+    left: 48.30%;
+}
+
+.studio-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'mulishregular';
+    text-align: center;
+    letter-spacing: 0.4375px;
+    color: #404852;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    display: block;
+}
+
+.william-text {
+    font-family: 'mulishbold';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.444444px;
+    color: #333333;
+    display: block;
+}
+
+@media screen and (max-width: 1342px) {
+    .temukan {
+        font-size: 42px !important;
+    }
+    .img-box-text {
+        max-width: 433px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-box-text {
+        left: 2% !important;
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .img-box-text::before {
+        content: '';
+        background: none;
+    }
+    .ft-background::before {
+        top: 12%;
+        left: 0 !important;
+    }
+
+    .flex-div-right {
+        padding: 55px 60px !important;
+}
+}
+
+@media screen and (max-width: 1061px) {
+    .women-img, .table-img {
+        opacity: 0.5;
+    }
+    .ft-background::before {
+        top: 12% !important;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .drop-box::before {
+        background: none;
+    }
+    .img-text {
+        margin-bottom: 15px !important;
+    }
+    .img-box-text {
+        top: 10%;
+    }
+
+    .flex-div-right {
+        padding: 35px 35px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .drop-box {
+        padding: 10px;
+    }
+    .img-box-text {
+        top: 0%;
+    }
+    .temukan {
+        font-size: 36px !important;
+        line-height: 50px;
+    }
+    .img-text {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .pilih-kami {
+        max-width: 1039px;
+        display: block;
+    }
+    .pilih {
+        margin: 0 auto;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .kami {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .kenja-all-text {
+        width: 100%;
+        padding-left: 20.5%;
+        padding-top: 22.5%;
+        padding-bottom: 22.5%;
+    }
+    .kenja-dots::before {
+        top: 15%;
+        left: 7%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mb-150 {
+        margin-bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .kenja-all-text {
+        padding-left: 13.5%;
+        padding-top: 17.5%;
+        padding-bottom: 19.5%;
+    }
+    .kenja-dots::before {
+        top: 9%;
+        left: 6%;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .kenja-all-text {
+        padding-left: 6.5%;
+        padding-top: 15.5%;
+    }
+    .kenja-dots::before {
+        top: 6%;
+        left: 0% !important;
+    }
+    .paper-and-text {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .kenja-all-text {
+        padding-left: 2.5%;
+    }
+    .kenapa-text {
+        font-size: 25px;
+    }
+    .plus-600-text {
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .kenapa-telah {
+        margin: 0px auto 64px;
+        max-width: 330px;
+    }
+    .kenapa-text, .tenah-text {
+        text-align: center;
+    }
+    .kenja-all-text {
+        margin-bottom: 0;
+        padding-bottom: 9.5%;
+    }
+    .kenja-dots::before {
+        top: 9%;
+        left: 18% !important;
+    }
+    .margin-600 {
+        margin: 0 auto 64px !important;
+        max-width: 330px;
+        text-align: center;
+    }
+    .kerja-600 {
+        margin: 0 auto 64px !important;
+        max-width: 330px;
+        text-align: center;
+    }
+    .paper-and-text {
+        margin: 0 auto;
+        max-width: 470px;
+        padding: 41px;
+    }
+    .p-30 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .ruang {
+        text-align: center;
+    }
+    .card {
+        margin: auto;
+    }
+    .media-mb {
+        margin-bottom: 20px !important;
+    }
+    .ft-background::before {
+        top: 15% !important;
+        left: 11% !important;
+    }
+
+   .footer-right-content {
+    max-width: 490px;
+    padding: 50px;
+}
+
+}
+

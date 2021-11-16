@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-div{
+    max-width: 80%;
+    background-color: #4278f5;
+    margin: 5% auto;
+    padding: 10px;
+}
+
+.heading{
+    margin: 1% auto;
+    text-align: center;
+    color: white;
+}
+
+.form-1{
+    padding: 20px;
+}
+
+.main-f{
+    padding: 10px;
+}
+
+.fname, .lname{
+    color: white;
+    font-size: 1.5em;
+}
+
+.fname-1, .lname-1{
+    width: 100%;
+    padding: 4px;
+    margin: 1% auto;
+}
+
+.s-btn{
+    width: 100%;
+    padding: 4px;
+    color: white;
+    background-color: #f542a4;
+    font-size: 1.5em;
+}

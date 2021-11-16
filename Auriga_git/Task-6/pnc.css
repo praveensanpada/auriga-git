@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.top-black-bar{
+    background-color: black;
+}
+
+a{
+    color: black;
+}
+
+.form-section{
+    background-color: #E2ECFF;
+}
+
+.photo-section{
+    background-color:  #E2ECFF;
+}
+
+.photo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-space{
+    justify-content: space-between;
+}
+
+.footer-section{
+    background-color: blue;
+}
